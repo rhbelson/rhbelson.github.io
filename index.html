@@ -85,22 +85,9 @@
 
 
     <section class="download bg-primary text-center" id="download">
-      <div class="row">
-        <h2 class="section-heading">Want to improve your Inflight Wi-Fi experience?</h2>
-      <div class="col-lg-8">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 mx-auto">
-              <!-- <h2 class="section-heading">Want to improve your Inflight Wi-Fi experience?</h2> -->
-              <br>
-              <p style="text-align: left">Boost your Browsing by using ScaleUp! This extension actively and passively monitors your network connection and scales up your webpage for maximum performance.  Larger scale factor = fewer objects on page = faster loading time! Download our Google Chrome extension to get started!</p>
-              <a href="https://chrome.google.com/webstore/detail/scale-up/nccpekdjgfpoebbjipneaanfinpjppbh?hl=en"><img src="img/chrome.png" alt=""></a>
-            </div>
-          </div>
-        </div>
-      </div>
-        <div class="col-lg-4">
-        <div class="device-container">
+      <div class="jumbotron">
+        <h2 style="text-align: center;font-weight: bold">Want to improve your Inflight Wi-Fi experience?</h2>
+        <div class="device-container" style="margin-left:25%;width: 50%">
                 <div class="device-mockup macbook portrait white">
                   <div class="device">
                     <div class="screen">
@@ -113,59 +100,51 @@
                   </div>
                 </div>
               </div>
+         <h3 style="text-align: left">Boost your Browsing by using ScaleUp! This extension actively and passively monitors your network connection and scales up your webpage for maximum performance.  Larger scale factor = fewer objects on page = faster loading time! Download our Google Chrome extension to get started!</h3>
+        <a href="https://chrome.google.com/webstore/detail/scale-up/nccpekdjgfpoebbjipneaanfinpjppbh?hl=en"><img src="img/chrome.png" alt=""></a>
       </div>
-    </div>
     </section>
 
     <section class="features" id="features">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>Recent Projects</h2>
-          <p class="text-muted">My portfolio seeks to cross leverage music and technology in compelling ways, developing tools explore to explore the creative world. </p>
-        </div>
-          <div class="col-lg-12 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <i class="icon-music-tone-alt text-primary"></i>
-                    <h3>DJPrudo</h3>
-                    <p class="text-muted">Music curation tool and the newest way to provide a mind-map of your favorite playlists across all platforms (React)</p>
-                  </div>
+      <div class="jumbotron">
+          <h2 style="text-align: center;color: #000000;font-weight: bold">Previous Projects</h2>
+           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" style="margin-left:2.5%;width:95%;">
+              <div class="carousel-item active">
+                <img src="img/djprodu.png" class="d-block w-100" alt="..." style="opacity:0.3">
+                <div class="carousel-caption d-none d-md-block" style="color: #000000;">
+                  <h5 style="font-weight: bold">DJProdu</h5>
+                  <p>A music curation tool and the newest way to provide a mind-map of your favorite playlists across all platforms (Built in React)</p>
                 </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <i class="icon-music-tone-alt text-primary"></i>
-                    <h3>WhenInRome</h3>
-                    <p class="text-muted">Automatic Roman Numeral Analysis for MIDI Files with Single Tonal Area (Python)</p>
-                  </div>
-                </div>
-                <div class="col-lg-4">
-                  <div class="feature-item">
-                    <i class="icon-music-tone-alt text-primary"></i>
-                    <h3>MusiqueMan</h3>
-                    <p class="text-muted">Automated Music Generator using Recurrent Neural Network (Python)</p>
-                  </div>
-                </div>
-                
               </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-plane text-primary"></i>
-                    <h3>AquaFlight</h3>
-                    <p class="text-muted">Ranking and Geovisualization of Inflight Wi-Fi Performance by Airline (HTML/CSS)</p>
-                  </div>
+              <div class="carousel-item">
+                <img src="img/aquaflight.png" class="d-block w-100" alt="..." style="opacity:0.3">
+                <div class="carousel-caption d-none d-md-block" style="color: #000000;">
+                  <h5 style="font-weight: bold">AquaFlights</h5>
+                  <p>Ranking and Geovisualization of Inflight Wi-Fi Performance by Airline (Built using HTML/CSS)</p>
                 </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="icon-map text-primary"></i>
-                    <h3>NearUs</h3>
-                    <p class="text-muted">Mobile app that finds you a group's optimized hangout spot and restaurant recommmendations (React Native) </p>
-                  </div>
-                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/nearus.png" class="d-block w-100" alt="..." style="opacity:0.3">
+                <div class="carousel-caption d-none d-md-block" style="color: #000000;">
+                <h5 style="font-weight: bold">NearUs</h5>
+                <p>Mobile app that finds you a group's optimized hangout spot and restaurant recommmendations (Built in React Native)</p>
+              </div>
               </div>
             </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="false"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
       </div>
     </section>
@@ -174,7 +153,7 @@
       <div class="cta-content">
         <div class="container">
           <h2>Guitar Performance</h2>
-          <a href="https://rhbelson.github.io/" class="btn btn-outline btn-xl js-scroll-trigger">Learn More!</a>
+          <a href="https://rhbelson.github.io/" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>
         </div>
       </div>
       <div class="overlay"></div>
@@ -182,24 +161,24 @@
 
     <section class="contact bg-primary" id="contact">
       <div class="container">
-        <h2 style="color:#ffffff">Follow me on social media!</h2>
+        <h2 style="color:#ffffff">To connect with me:</h2>
         <ul class="list-inline list-social">
           <li class="list-inline-item social-twitter">
             <a href="https://twitter.com/robertbelson">
               <i class="fab fa-twitter"></i>
             </a>
           </li>
-          <li class="list-inline-item social-medium">
+          <li class="list-inline-item social-twitter">
             <a href="https://medium.com/@rhbelson">
               <i class="fab fa-medium"></i>
             </a>
           </li>
-           <li class="list-inline-item social-linkedin">
+           <li class="list-inline-item social-twitter">
             <a href="https://www.linkedin.com/in/robert-belson-7886ba126">
               <i class="fab fa-linkedin"></i>
             </a>
           </li>
-          <li class="list-inline-item social-github">
+          <li class="list-inline-item social-twitter">
             <a href="https://www.github.com/rhbelson">
               <i class="fab fa-github"></i>
             </a>
