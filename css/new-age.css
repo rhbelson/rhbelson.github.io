@@ -289,7 +289,7 @@ section.features .feature-item i {
 
 section.cta {
   position: relative;
-  padding: 250px 0px 50px 0px;
+  padding: 100px 0px 200px 0px;
   background-image:url(../img/bg-cta.jpg);
   background-position: center;
   background-size: cover;
@@ -360,11 +360,11 @@ section.contact ul.list-social li.social-twitter a:hover {
   background-color: #0d95e8;
 }
 
-section.contact ul.list-social li.social-facebook a {
+section.contact ul.list-social li.social-medium a {
   background-color: #3b5998;
 }
 
-section.contact ul.list-social li.social-facebook a:hover {
+section.contact ul.list-social li.social-medium a:hover {
   background-color: #344e86;
 }
 
@@ -374,6 +374,14 @@ section.contact ul.list-social li.social-linkedin a {
 
 section.contact ul.list-social li.social-linkedin a:hover {
   background-color: #d73925;
+}
+
+section.contact ul.list-social li.social-github a {
+  background-color: #313131;
+}
+
+section.contact ul.list-social li.social-github a:hover {
+  background-color: #424242;
 }
 
 footer {
@@ -440,8 +448,17 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
-
+/* Style for Mobile*/
 @media only screen and (max-width: 400px) {
+  #me {
+    height:-30%;
+    width:-30%;
+  }
+
+  #propic_div {
+    height:330px;
+  }
+
   section.features i {
     font-size: 50px;
   }
@@ -460,5 +477,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   section.contact h2 {
     font-size:35px;
   }
+
 }
 

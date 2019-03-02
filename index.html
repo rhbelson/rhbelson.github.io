@@ -62,14 +62,14 @@
     <header class="masthead">
       <div class="container h-100">
         <div class="row h-100">
-          <div class="col-lg-7 my-auto">
+          <div id="propic_div" class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
               <h1 class="mb-5">I'm a passionate distributed systems researcher, full-stack developer, and classical guitarist from Washington, D.C.</h1>
               <a href="#background" class="btn btn-outline btn-xl js-scroll-trigger">More About Me</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
-            <img rel="preload" src="img/me.png" class="img-fluid" alt="">
+            <img id="me" rel="preload" src="img/me.png" class="img-fluid" alt="">
           </div>
         </div>
       </div>
@@ -82,8 +82,8 @@
           <h2> About Me</h2>
           <p class="text-muted" style="text-align: left"> I am a senior undergraduate student at Northwestern University, pursuing a B.A. in Computer Science, a B.M. in Guitar Performance, and M.S. in Computer Science. <br><br> The past two years, I've worked in Northwestern's Aqualab under my advisor, Dr. Fabián Bustamante. In addition to my research, I currently work as a Network Architect for bloXroute Labs, a Chicago-based team scaling blockchains to thousands of on-chain transactions per second.<br><br> Previously, I've worked in Verizon’s Corporate Strategy and Development group, supporting scenario planning and strategy development relating to the future of connectivity, and I helped develop partnerships with major Fortune 500 partners to expand existing businesses and explore adjacent offerings. I also worked in Verizon’s Corporate Venture Capital team, where I identified innovators across a variety of market segments and conducted competitive financial analyses to identify candidates for potential investment. </p> 
 
-          <p><h3 class="text-muted" style="text-align: center;margin-top: 20px;font-weight: bold"> I consider myself experienced with the following languages:<br>
-            <div id="language_icons" style="font-size: 120px;margin-top: 20px" width="50%">
+          <p style="text-align: center;margin-top: 40px; font-size: 150%"> I consider myself experienced with the following languages:</p>
+            <div id="language_icons" style="font-size: 75px;width:80%;margin-left: 10%">
             <i class="devicon-android-plain colored"></i>
             <i class="devicon-bootstrap-plain colored"></i>
             <i class="devicon-chrome-plain colored"></i>
@@ -96,7 +96,7 @@
             <i class="devicon-python-plain colored"></i>
             <i class="devicon-typescript-plain colored"></i>
           </div>
-          </p>
+       
         </div>
        
       </div>
@@ -107,7 +107,7 @@
 
     <section class="download bg-primary text-center" id="download">
       <div class="jumbotron">
-        <h2 style="text-align: center;">My Research</h2>
+        <h2 style="text-align: center;">Research </h2>
         <h4 style="text-align: center;font-weight: bold">Want to improve your Inflight Wi-Fi experience?</h4>
         <div class="device-container" style="margin-left:25%;width: 50%">
                 <div class="device-mockup macbook portrait white">
@@ -124,38 +124,42 @@
               </div>
          <h5 style="margin-left:10%;width:80%;text-align: left">Boost your Browsing by using ScaleUp! This extension actively and passively monitors your network connection and scales up your webpage for maximum performance.  Larger scale factor = fewer objects on page = faster loading time! Download our <a href="https://chrome.google.com/webstore/detail/scale-up/nccpekdjgfpoebbjipneaanfinpjppbh?hl=en">Google Chrome extension </a> to get started!</h5>
   <!--       <a href="https://chrome.google.com/webstore/detail/scale-up/nccpekdjgfpoebbjipneaanfinpjppbh?hl=en"><img src="img/chrome.png" alt=""></a> -->
+      <h3 style="text-align: center;margin-top: 5%;font-weight: bold">Publications & Awards</h3>
+      <h5 style="font-style: italic;text-align: left;">James Newman, Robert H. Belson and Fabián E. Bustamante, “Scaling Up Your Experience, Everywhere”, Proc. of HotMobile, February 2019.</h5>
+       <h5 style="font-style: italic;text-align: left;margin-top: 20px;">Northwestern University Greenbriar Equity Research Fellowship (2018)</h5>
+       <h5 style="font-style: italic;text-align: left;margin-top: 20px;">Forbes 30 Under 30 Scholar (2017)</h5>
       </div>
     </section>
 
     <section class="features" id="features">
-      <div class="jumbotron">
-          <h2 style="text-align: center;color: #000000;font-weight: bold">Previous Projects</h2>
+      <div id="projects" class="jumbotron" style="margin-bottom: 0px;">
+          <h2 style="text-align: center;">Projects</h2>
            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner" style="margin-left:15%;width:70%;">
+            <div id="project1" class="carousel-inner" style="margin-left:15%;width:70%;">
               <div style="height:60%" class="carousel-item active">
-                <img src="img/djprodu.png" class="d-block w-100" alt="..." style="opacity:0.3">
+                <img src="img/djprodu.png" class="d-block w-100" alt="..." style="opacity:0.5">
                 <div class="carousel-caption d-none d-md-block" style="color: #000000;">
                   <h5 style="font-weight: bold">DJProdu</h5>
-                  <p>A music curation tool and the newest way to provide a mind-map of your favorite playlists across all platforms (Built in React)</p>
+                  <p>A music curation tool and the newest way to provide a mind-map of your favorite playlists across all platforms</p>
                 </div>
               </div>
-              <div style="height:60%" class="carousel-item">
-                <img src="img/aquaflight.png" class="d-block w-100" alt="..." style="opacity:0.3">
+              <div id="project2" style="height:60%" class="carousel-item">
+                <img src="img/aquaflight.png" class="d-block w-100" alt="..." style="opacity:0.5">
                 <div class="carousel-caption d-none d-md-block" style="color: #000000;">
                   <h5 style="font-weight: bold">AquaFlights</h5>
-                  <p>Ranking and Geovisualization of Inflight Wi-Fi Performance by Airline (Built using HTML/CSS)</p>
+                  <p>Ranking and Geovisualization of Inflight Wi-Fi Performance by Airline</p>
                 </div>
               </div>
-              <div style="height:60%" class="carousel-item">
-                <img src="img/nearus.png" class="d-block w-100" alt="..." style="opacity:0.3">
+              <div id="project3" style="height:60%" class="carousel-item">
+                <img src="img/nearus.png" class="d-block w-100" alt="..." style="opacity:0.5">
                 <div class="carousel-caption d-none d-md-block" style="color: #000000;">
                 <h5 style="font-weight: bold">NearUs</h5>
-                <p>Mobile app that finds you a group's optimized hangout spot and restaurant recommmendations (Built in React Native)</p>
+                <p>Mobile app that finds you a group's optimized hangout spot and restaurant recommmendations</p>
               </div>
               </div>
             </div>
@@ -190,17 +194,17 @@
               <i class="fab fa-twitter"></i>
             </a>
           </li>
-          <li class="list-inline-item social-twitter">
+          <li class="list-inline-item social-medium">
             <a href="https://medium.com/@rhbelson">
               <i class="fab fa-medium"></i>
             </a>
           </li>
-           <li class="list-inline-item social-twitter">
+           <li class="list-inline-item social-linkedin">
             <a href="https://www.linkedin.com/in/robert-belson-7886ba126">
               <i class="fab fa-linkedin"></i>
             </a>
           </li>
-          <li class="list-inline-item social-twitter">
+          <li class="list-inline-item social-github">
             <a href="https://www.github.com/rhbelson">
               <i class="fab fa-github"></i>
             </a>
