@@ -571,18 +571,24 @@
     startAutoPlay: function(track, nav, totalSlides) {
       let currentSlide = 0;
       
-      setInterval(() => {
+      let autoAdvance = setInterval(() => {
         currentSlide = (currentSlide + 1) % totalSlides;
         this.goToSlide(currentSlide, track, nav);
       }, 5000);
       
-      // Pause on hover
+      // Pause on hover - clear interval to prevent glitching
       track.addEventListener('mouseenter', () => {
+        clearInterval(autoAdvance);
         track.classList.remove('auto-scroll');
       });
       
       track.addEventListener('mouseleave', () => {
         track.classList.add('auto-scroll');
+        // Restart auto-advance
+        autoAdvance = setInterval(() => {
+          currentSlide = (currentSlide + 1) % totalSlides;
+          this.goToSlide(currentSlide, track, nav);
+        }, 5000);
       });
     }
   };
